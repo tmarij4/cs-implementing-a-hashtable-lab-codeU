@@ -6,7 +6,6 @@ import java.util.Map;
 import org.jfree.data.xy.XYSeries;
 
 import com.flatironschool.javacs.Profiler.Timeable;
-
 public class ProfileMapPut {
 	
 	/**
@@ -25,7 +24,7 @@ public class ProfileMapPut {
 			Map<String, Integer> map;
 
 			public void setup(int n) {
-				map = new HashMap<String, Integer>();
+				map = new MyHashMap<String, Integer>();
 			}
 
 			public void timeMe(int n) {
